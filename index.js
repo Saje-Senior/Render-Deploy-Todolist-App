@@ -14,17 +14,16 @@ app.use(cors())
 const PORT = process.env.PORT || 5000;
 
 const todos = [
+
 ]
 
 // Serve static files (CSS, JS, images) from the "public" directory
-app.use(express.static(path.join(__dirname, ".")));
 
 // Serve index.html
 
 // app.get - route HTTP GET requests to the specified path, associating them with designated callback functions.
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, "public", "index.html"));
     res.json({
         msg: "Todo List Home Page"
     })

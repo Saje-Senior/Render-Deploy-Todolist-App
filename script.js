@@ -10,7 +10,7 @@ const saveTodo = document.getElementById('save-todo')
 
 let todoArray = [];
 
-const URL = 'http://localhost:5000/todos'
+const URL = 'https://restful-api-todolist.onrender.com/todos'
 
 
 
