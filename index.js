@@ -14,7 +14,26 @@ app.use(cors())
 const PORT = process.env.PORT || 5000;
 
 const todos = [
-
+    {
+        id: 1,
+        name: 'Finish API front and backend implimentation',
+        completed: false
+    },
+    {
+        id: 2,
+        name: 'Host it, confirm full functionality.',
+        completed: false
+    },
+    {
+        id: 3,
+        name: 'Send to Mr. Andrew, get his review and reference letter',
+        completed: false
+    },
+    {
+        id: 4,
+        name: 'Start applying and interviewing for front end positions',
+        completed: false
+    },
 ]
 
 // Serve static files (CSS, JS, images) from the "public" directory
